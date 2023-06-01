@@ -67,16 +67,16 @@
        &kp TAB  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0  &kp BACKSPACE
      &kp LCTRL     &kp LC(A)     &kp LC(S)     &kp LC(D)     &kp LC(F)        &trans       &kp GRAVE      &kp MINUS         &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
 &kp LEFT_SHIFT     &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)        &trans          &trans  &kp SEMICOLON  &kp SINGLE_QUOTE         &kp COMMA         &kp PERIOD      &kp SLASH
-                                                  &trans        &trans        &trans          &trans          &mo 3            &trans
+                                                  &trans        &trans         &mo 3          &trans          &mo 3            &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&kp TAB  &kp F1   &kp F2   &kp F3   &kp F4  &trans    &trans    &trans    &kp UP     &trans  &trans  &trans
- &trans  &kp F5   &kp F6   &kp F7   &kp F8  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
- &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans    &trans    &trans     &trans  &trans  &trans
-                           &trans   &trans  &trans    &trans    &trans    &trans
+&trans  &kp F1   &kp F2   &kp F3   &kp F4  &trans    &trans    &trans    &kp UP     &trans  &trans  &trans
+&trans  &kp F5   &kp F6   &kp F7   &kp F8  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans    &trans    &trans     &trans  &trans  &trans
+                          &trans   &trans  &trans    &trans    &trans    &trans
             >;
         };
 
